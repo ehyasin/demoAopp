@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NewPpageComponent } from './new-ppage/new-ppage.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NewPpageComponent
   ],
   imports: [
     BrowserModule,
