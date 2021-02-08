@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NewPpageComponent } from './new-ppage/new-ppage.component';
 import { NewPageComponent } from './new-page/new-page.component';
+import { NewPage3Component } from './new-page3/new-page3.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NewPpageComponent,
-    NewPageComponent
+    NewPageComponent,
+    NewPage3Component
   ],
   imports: [
     BrowserModule,
